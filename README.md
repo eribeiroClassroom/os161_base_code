@@ -8,7 +8,7 @@ See notes on building and running OS/161:
 
 This repository tests the kernel automatically every time new changes are pushed to the repository. Open the Actions tab to see details of the tests. The main test is implemented in the file `entrypoint.sh`. 
 
-**Important**: Configure the assignment using the configuration file `DUMBVM`, i.e.: 
+**Important**: Configure the kernel using the configuration file `DUMBVM`, i.e.: 
 ```bash
 cd kern/conf/
 ./config DUMBVM
